@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+	background-color: #effc80;
+	background-image: 
+      radial-gradient(at 0% 0%, rgb(245, 12, 12) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, rgb(238, 234, 16) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, rgb(250, 129, 16) 0, transparent 50%);
+			
+	
+
+	color: #f57309;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+
+body.dark-mode {
+	background-color:#0f0e13;
+	background-image: 
+      radial-gradient(at 0% 0%, rgb(12, 12, 12) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, rgb(44, 54, 83) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, rgb(60, 4, 87) 0, transparent 50%);
+	
+	color: #e5e8e8;
+}
+
+main {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #f5a834;
+	padding: 16px;
+	color: #e5e8e8;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+footer.dark-mode {
+	background-color: #978d8d;
+	color: #000401;
+}
+
+button {
+	border-radius: 40px;
+	font-size: 1.5rem;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color:#f57309;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+
+button:hover {
+	background-color: #791c1c;
+	
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
