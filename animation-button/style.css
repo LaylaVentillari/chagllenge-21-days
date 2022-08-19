@@ -58,10 +58,13 @@ button {
 	background-color:#f57309;
 	color: #e5e8e8;
 	transition: all 0.5s linear;
-}
+		box-shadow: 25px 10px 10px 10px rgba(73, 62, 62, 0.295);
+		}
 
 button:hover {
 	background-color: #791c1c;
+	border-radius:50%;
+	color:#252929 ;
 	
 }
 
