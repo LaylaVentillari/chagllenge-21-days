@@ -1,0 +1,119 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background: #121214;
+  color: rgb(201, 122, 247);
+}
+
+
+
+form {
+  background-color: #202024;
+  max-width: 500px;
+  width:70%;
+  padding:20px;
+  position:absolute;
+  left:50%;
+  top:60%;
+  transform:translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid #323238 ;
+  
+}
+
+
+form h3 {
+  
+  padding: 25px;
+  text-align: center;
+  color:rgb(201, 122, 247);
+  font-family:'Roboto', sans-serif;
+  background: transparent;
+}  
+
+table {
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+table.list {
+text-align: center;
+width: 100%;
+}
+td {
+text-align: left;
+padding: 8px 15px;
+}
+
+form input[type=text],
+form input[type=number],
+form input[type=password] {
+  width:100%;
+  height:45px;
+  border:1px solid #323238 ;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+form input[type=submit]{
+  width:100%;
+  height:40px;
+  cursor:pointer;
+  background:#7c5294c0;
+  color:#F2F2F2;
+  border:0;
+  border-radius:15px;
+  transition:1s; 
+      
+}
+
+input[type="submit"]:hover {
+  background:rgba(201, 122, 247, 0.8);
+
+}
+
+
+form input [type="text"]:focus{
+  outline:none;
+}
+
+form input[type="password"]:focus {
+  outline: none;
+}
+
+a {
+  color: rgb(201, 122, 247);
+}
+
+
+.register {
+  margin-top: 25px;
+  color: rgb(201, 122, 247);
+}
+
+.home {
+  margin-left: 35%;
+  padding: 20px;
+}
+
+.form_action--button {
+width: 91%;
+padding: 12px 20px;
+margin: 1rem 0;
+display: inline-block;
+
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+  background:transparent;
+
+}
