@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <input id="inputPasswordId" type="text"  />
+    
+    <div>
+      <input id="inputLengthId" type="range" min="6" max="24"/>
+      <label for="inputLengthId"></label>
+    </div>
+   <div>
+      <input id="chkLowerId" type="checkbox"/>
+      <label for="chkLowerId">Lower Case</label>
+   </div> 
+
+   <div>
+    <input id="chkUpperId" type="checkbox"/>
+    <label for="chkUpperId">Upper Case</label>
+ </div> 
+
+ <div>
+  <input id="chkNumberId" type="checkbox"/>
+  <label for="chkNumberId">Number</label>
+ </div>
+
+<div>
+  <input id="chkSymbolsId" type="checkbox"/>
+  <label for="chkSymbolsId">Symbols</label>
+</div> 
+
+<button id="btnGerar">Generate</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
