@@ -30,8 +30,8 @@
 
 .calculator__btns button:last-child {
   border-radius: 50%;
-  color: var(--txt-white);
-  background-image: linear-gradient(312deg, #cd6e36, #d400ff);
+  color: var(--calc-btn-color);
+  border:1px solid var(--txt-color);
 }
 
 .calculator__btns .btn__op {

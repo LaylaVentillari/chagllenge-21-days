@@ -1,27 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 
 body {
-	background-color: #effc80;
-	background-image: 
-      radial-gradient(at 0% 0%, rgb(245, 12, 12) 0, transparent 50%), 
-      radial-gradient(at 50% 0%, rgb(238, 234, 16) 0, transparent 50%), 
-      radial-gradient(at 100% 0%, rgb(250, 129, 16) 0, transparent 50%);
-			
-	
-
-	color: #f57309;
+	background-color: #fff;
+	color: blueviolet;
 	margin: 0;
 	font-family: 'Quicksand';
 }
 
 body.dark-mode {
-	background-color:#0f0e13;
-	background-image: 
-      radial-gradient(at 0% 0%, rgb(12, 12, 12) 0, transparent 50%), 
-      radial-gradient(at 50% 0%, rgb(44, 54, 83) 0, transparent 50%), 
-      radial-gradient(at 100% 0%, rgb(60, 4, 87) 0, transparent 50%);
-	
-	color: #e5e8e8;
+	background-color:#242424;
+	color: #b98ae4;;
 }
 
 main {
@@ -35,9 +23,9 @@ main {
 
 footer {
 	width: 100%;
-	background-color: #f5a834;
+	background-color: blueviolet;
 	padding: 16px;
-	color: #e5e8e8;
+	color:#b98ae4;
 	position: fixed;
 	bottom: 0;
 	text-align: center;
@@ -45,8 +33,8 @@ footer {
 }
 
 footer.dark-mode {
-	background-color: #978d8d;
-	color: #000401;
+	background-color: #b98ae4;
+	color: blueviolet;
 }
 
 button {
@@ -55,25 +43,28 @@ button {
 	height: 60px;
 	width: 200px;
 	border: none;
-	background-color:#f57309;
-	color: #e5e8e8;
-	transition: all 0.5s linear;
-		box-shadow: 25px 10px 10px 10px rgba(73, 62, 62, 0.295);
+	background-color:blueviolet;
+	color: #b98ae4;
+	transition: all 0.3s linear;
+		box-shadow: 25px 10px 10px 10px rgba(63, 57, 57, 0.295);
+		cursor: pointer;
 		}
 
 button:hover {
-	background-color: #791c1c;
+	background-color: #b98ae4;
 	border-radius:50%;
-	color:#252929 ;
+	color:blueviolet ;
+	width: 150px;
+	height: 150px;
 	
 }
 
 button.dark-mode {
-	background-color: #e5e8e8;
-	color: #4e545c;
+	background-color: #b98ae4;;
+	color: blueviolet;
 }
 
 button.dark-mode:hover {
-	background-color: #4e545c;
-	color: #e5e8e8;
+	background-color:  blueviolet;
+	color: #b98ae4;
 }

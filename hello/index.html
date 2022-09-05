@@ -27,13 +27,13 @@
             align-items: center;
             font-family: 'Pacifico', cursive;
             color: #81c973;
-            font-size: 4.5rem;
+            font-size: 4rem;
             text-shadow: 3px 3px 2px rgb(8, 70, 240);  
             position: relative;
-
-            animation-name: one;
+            margin-bottom: 3rem;
+            animation-name: one, bounce;
             animation-duration: 2s;
-            animation-delay: 1s;
+            animation-delay: 1.5s;
             animation-iteration-count: infinite;
          }
 
@@ -73,6 +73,20 @@
 
            } 
 
+           @keyframes bounce{
+            0%, 100% {
+                top: 10px;
+            }
+
+            12.5% {
+    
+             width: 100%;
+            top: 40px;
+             }
+
+ 
+}
+
 
 
           img {
@@ -88,7 +102,7 @@
 <body> 
     <h1>Hello World !</h1>
         <div class="container">
-            <img src="./assets/world.png" alt="">
+            <img src="./assets/earth2.png" alt="">
         </div>
 </body>
 
