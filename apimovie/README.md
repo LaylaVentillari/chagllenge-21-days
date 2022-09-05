@@ -1,7 +1,7 @@
 # Challenge Rocketseat 21 Days of Code.
-* **Day 16** Develop a website by creating a public API.
+* **Day 17** Develop a website by creating a public API.
 <div align ="center">
-  <img src="apimovie/tmdb-movie/src/assets/movies.gif" alt="">
+  <img src="tmdb-movie/src/assets/movies.gif" alt="">
  
 </div>
 
