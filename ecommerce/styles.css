@@ -13,12 +13,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: #ccc;
+  background: #24242477;
 }
 
 .box {
   flex: 1 1 300px;
-  background: #fff;
+  background: rgb(243, 238, 238);
   border: 1px solid rgba(0, 0, 0, .3);
   position: relative;
   overflow: hidden;
@@ -28,7 +28,7 @@
 
 .box .image {
   padding: 10px;
-  background: #eee;
+  background: rgb(175, 170, 170);
   text-align: center;
 }
 
@@ -54,7 +54,7 @@
 } 
 
 .box .info .subInfo .price {
-  color: #ff3300;
+  color: #fd820f;
   font-size: 20px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .box .info .subInfo .stars i {
-  color: orange;
+  color: #999;
   font-size: 17px;
 
 }
@@ -99,7 +99,7 @@
 }
 
 .box .overlay a:hover {
-  color: orange;
+  color: #fd820f;
 }
 
 .box:hover .overlay a {

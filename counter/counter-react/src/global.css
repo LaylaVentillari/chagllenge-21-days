@@ -9,9 +9,9 @@
   --gray-800:#202024;
   --gray-900:#121214;
 
-  --red-300:  #f5cdcfd2;
-  --red-400: #ebb1b4a6;
-  --red-500: #b34d56;
+  --red-300:  #c7bff5d2;
+  --red-400: #a6adf3;
+  --red-500: rgb(125, 112, 199);
 }
 
 * {
@@ -21,7 +21,7 @@
 }
 
 body {
-background: #cacaca;
+background: #202024;
 --webkit-font-smoothing: antialiased;
 }
 
