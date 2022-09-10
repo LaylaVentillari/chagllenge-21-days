@@ -32,8 +32,8 @@ main > div {
 input {
   padding: 5px;
   outline: none;
-  accent-color: blueviolet;
-  border: 2px solid blueviolet;
+  accent-color: #732B80;
+  border: 2px solid #732B80;
   border-radius: 10px;
   background: #242424;
   color: #fff;
@@ -50,7 +50,7 @@ input[type=range] {
 }
 
 button {
-  background-color: blueviolet;
+  background-color: #732B80;
   cursor: pointer;
   color: white;
   border: none;

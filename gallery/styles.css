@@ -13,7 +13,7 @@ body {
 }
 
 .carrosel {
-  box-shadow: 2px 2px 4px black;
+  border: 2px solid #FAE55D;
   overflow: hidden;
   height: 500px;
   width: 500px;
@@ -27,7 +27,7 @@ body {
 }
 
 .container img {
- object-fit: cover;
+  object-fit: cover;
  width: 500px;
  height: 500px;
 }

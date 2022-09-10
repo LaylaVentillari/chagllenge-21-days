@@ -20,8 +20,8 @@ const questions = [
   {
     text: "O que significa HTML?",
     options: [
-      { id: 0, text: "Hyperlinks and Text Markup Language", isCorrect: true },
-      { id: 1, text: "Hyper Text Markup Language", isCorrect: false },
+      { id: 0, text: "Hyperlanguage Markup", isCorrect: false },
+      { id: 1, text: "Hyper Text Markup Language", isCorrect: true },
       { id: 2, text: "Home Tool Markup Language", isCorrect: false },
       { id: 3, text: "Hype Text Mockup Language", isCorrect: false },
     ],
@@ -75,7 +75,7 @@ const restartGame = () => {
 return (
     <div className="App">
       {/*1. Header*/}
-          <h1>Desenvolvimento Web</h1>
+          <h1> QUIZ DESENVOLVIMENTO WEB</h1>
       {/*2. Current Score*/}
           <h2>Pontos: {score}</h2>
 

@@ -5,7 +5,7 @@ display: flex;
 align-items: center;
 background-color: #0d0d0d;
 fonts-size: 20px;
-color: white;
+color: #9E53B6;
 padding: 10px;
 cursor: pointer;
 border-radius: 10px;

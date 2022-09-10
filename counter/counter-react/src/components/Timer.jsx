@@ -39,7 +39,6 @@ import './timer.css';
       <h1>{minutes<10? "0" + minutes : minutes}:{seconds<10? "0" + seconds : seconds}</h1>
     <button className="restart" onClick={restart}>Restart</button>
     <button className="stop" onClick={stop}>Stop</button>
-    
     </div>
     </div>
     </div>
