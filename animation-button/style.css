@@ -1,70 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
-	background-color: #fff;
-	color: #732B80;
-	margin: 0;
-	font-family: 'Quicksand';
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, button {
+  transition: background-color 0.3s ease-in-out;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #8B5FBF;
 }
 
 body.dark-mode {
-	background-color:#242424;
-	color: #9E53B6;
+  background-color: #242424;
+  color: #8B5FBF;
 }
 
 main {
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-footer {
-	width: 100%;
-	background-color: #732B80;;
-	padding: 16px;
-	color:#9E53B6;
-	position: fixed;
-	bottom: 0;
-	text-align: center;
-	font-weight: 400;
-}
-
-footer.dark-mode {
-	background-color: #9E53B6;
-	color:#732B80;;
+h1 {
+  background-image: linear-gradient(to right, #8B5FBF, #D7B9FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 button {
-	border-radius: 40px;
-	font-size: 1.5rem;
-	height: 60px;
-	width: 200px;
-	border: none;
-	background-color:#732B80;
-	color: #B175C5;
-	transition: all 0.3s linear;
-		box-shadow: 25px 10px 10px 10px rgba(63, 57, 57, 0.295);
-		cursor: pointer;
-		}
+  display: inline-block;
+  padding: 0;
+  background-image: url('./assets/avatar.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+button.small {
+  width: auto;
+  height: auto;
+}
+
+button.large {
+  width: 100%;
+  height: 100%;
+}
+
+button.animated {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 button:hover {
-	background-color: #9E53B6;
-	border-radius:50%;
-	color:#732B80; 
-	width: 150px;
-	height: 150px;
-	
+  transform: scale(1.1);
 }
 
 button.dark-mode {
-	background-color: #9E53B6;;
-	color: #732B80;
+  color: #732B80;
 }
 
 button.dark-mode:hover {
-	background-color:#732B80;
-	color:#B175C5;
+  background-color: #732B80;
+  color: #B175C5;
+}
+
+footer {
+  background-color: #732B80;
+  color: #9E53B6;
+  padding: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+
+footer.dark-mode {
+  background-color: #9E53B6;
+  color: #732B80;
 }
